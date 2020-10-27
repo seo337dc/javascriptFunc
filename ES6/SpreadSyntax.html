@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script>
+    //   //1) 전개연산자를 활용한 함수 호출  
+    //   const testFunc = (a,b,c) => {
+    //       console.log(a,b,c);
+    //   };
+      
+    //   const arr=[1,2,3,4];
+
+    //   testFunc(...arr);
+
+    //   //2. 전개연산자를 활용한 배열
+    //   const arr = [4,5,6];
+    //   const newArr = [1,2,3, ...arr];
+    //   console.log(newArr);
+
+    //   //3. 배열 함수 활용하기
+    //   var arr = [1, 2, 3];
+    //   var arr2 = [4,5,6]; 
+    //   arr.push(arr2); 
+    //   console.log("일반 push", arr);
+
+    //   var testarr = [1, 2, 3];
+    //   var testarr2 = [4,5,6];
+    //   testarr.push(...testarr2); 
+      
+    //   console.log("전개연산자 push", testarr);
+
+    // 4. 객체 활용하기
+    let obj = { data1 : "데이터1", data2 : "ㅁㄴㅇㄻㄴㅇㄹ2", data3 : "데이터3"}
+    
+    obj = {...obj, ["data2"] : "데이터2"};
+
+    console.log(obj);
+
+
+    </script>
+
+    <title>React App</title>
+  </head>
+  <body></body>
+</html>
